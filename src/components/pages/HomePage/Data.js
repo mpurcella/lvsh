@@ -1,3 +1,5 @@
+import cardsImg from '../../../images/cards.svg';
+
 let homeObjOne = {
     lightBg: false,
     lightText: true,
@@ -7,7 +9,7 @@ let homeObjOne = {
     description: 'Get access to our exclusive diamond card that allows you to send unlimited transfers without any fees',
     buttonText: 'Get Started',
     imgStart: '',
-    src: './images/svg-1.svg',
+    src: cardsImg,
     alt: 'Credit Card',
 }
 
