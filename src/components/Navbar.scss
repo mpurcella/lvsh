@@ -1,19 +1,18 @@
 .navbar {
     width: 100%;
     height: 10vh;
-    position: relative;
+    background-color: #1c2237;
+    position: sticky;
+    top: 0;
 
     &-container {
         width: 100%;
         height: 10vh;
-        position: fixed;
-        top: 0;
-        background-color: #1c2237;
+        padding: 1rem 6rem;
+        box-sizing: border-box;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 6rem;
-        box-sizing: border-box;
         z-index: 999;
 
         .navbar-logo {
