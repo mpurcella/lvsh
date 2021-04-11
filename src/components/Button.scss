@@ -9,12 +9,12 @@
     border: none;
     cursor: pointer;
     box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .btn-primary {
     background-color: var(--primary);
     color: #242424;
-    font-family: 'Nunito Sans', sans-serif;
     border: 1px solid var(--primary);
     box-sizing: border-box;
 }
@@ -22,7 +22,6 @@
 .btn-outline {
     background-color: transparent;
     color: var(--primary);
-    font-family: 'Nunito Sans', sans-serif;
     border: 1px solid var(--primary);
     transition: all .3s ease-out;
     box-sizing: border-box;
@@ -59,7 +58,7 @@
 }
 
 .btn-wide {
-    padding: 12px 64px;
+    padding: 12px 48px;
     font-size: 2rem;
     transition: all .3s ease-out;
     box-sizing: border-box;
@@ -76,13 +75,13 @@
     border: none;
 
     &:hover {
-        background-color: var(--primary);
+        background-color: #f00946;
         color: #242424;
     }
 }
 
 .blue {
-    background-color: #276afb;
+    background-color: #286bfb;
     color: var(--primary);
     border: none;
 }
@@ -91,6 +90,11 @@
     background-color: #f00946;
     color: var(--primary);
     border: none;
+
+    &:hover {
+        background-color: var(--primary);
+        color: #242424;
+    }
 }
 
 .green {

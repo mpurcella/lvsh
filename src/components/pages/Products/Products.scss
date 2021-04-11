@@ -1,0 +1,167 @@
+.pricing {
+    width: 100%;
+    min-height: 90vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 4rem;
+    box-sizing: border-box;
+
+    &-heading {
+        font-size: 4rem;
+        color: #1c2237;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 6rem;
+
+        @media (max-width: 1200px) {
+            font-size: 3.8rem;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 3.6rem;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 3.2rem;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 3rem;
+        }
+    }
+
+    &-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        &-card {
+            background: linear-gradient(rgb(100, 197, 235) 0%, rgb(40, 107, 251) 100%);
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            transition: all .3s ease-in-out;
+            box-sizing: border-box;
+
+            @media (max-width: 992px) {
+                width: 100%;
+            }
+
+            &:hover {
+                transform: scale(1.03) translate3d(0, 0, 0);
+
+                @media (max-width: 992px) {
+                    transform: scale(1);
+                }
+            }
+
+            &-info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 4rem 2rem;
+                box-sizing: border-box;
+
+                &-icon {
+                    font-size: 6rem;
+                    margin-bottom: 1rem;
+
+                    @media (max-width: 992px) {
+                        font-size: 7rem;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 6rem;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 5rem;
+                    }
+                }
+
+                &-heading {
+                    font-size: 2.4rem;
+                    font-weight: 700;
+                    margin-bottom: 1.4rem;
+
+                    @media (max-width: 992px) {
+                        font-size: 2.4rem;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 2.2rem;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 2rem;
+                    }
+                }
+
+                &-subheading {
+                    font-size: 3.6rem;
+                    margin-bottom: .4rem;
+
+                    @media (max-width: 992px) {
+                        font-size: 3.6rem;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 3.4rem;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 3.2rem;
+                    }
+                }
+
+                &-text {
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    margin-bottom: 2.4rem;
+
+                    @media (max-width: 992px) {
+                        font-size: 1.2rem;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 1.2rem;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 1rem;
+                    }
+                }
+
+                .pricing-container-features-list {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+        
+                    &-item {
+                        font-size: 1.6rem;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+
+        &-card:nth-child(2) {
+            background-image: linear-gradient(rgb(36, 36, 36) 0%, rgb(0, 0, 0) 100%);
+            transform: scale(1.03);
+            transition: all .3s ease-in-out;
+            margin: 0 2rem;
+
+            &:hover {
+                transform: scale(1.05)
+            }
+
+            @media (max-width: 992px) {
+                transform: scale(1);
+                margin: 2rem 0;
+            }
+        }
+    }
+}
