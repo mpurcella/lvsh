@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lvsh/static/css/main.1999adb1.chunk.css",
-    "main.js": "/lvsh/static/js/main.8527c4fd.chunk.js",
-    "main.js.map": "/lvsh/static/js/main.8527c4fd.chunk.js.map",
+    "main.js": "/lvsh/static/js/main.b4fd9a62.chunk.js",
+    "main.js.map": "/lvsh/static/js/main.b4fd9a62.chunk.js.map",
     "runtime-main.js": "/lvsh/static/js/runtime-main.91cf79ca.js",
     "runtime-main.js.map": "/lvsh/static/js/runtime-main.91cf79ca.js.map",
-    "static/js/2.8d8b9a67.chunk.js": "/lvsh/static/js/2.8d8b9a67.chunk.js",
-    "static/js/2.8d8b9a67.chunk.js.map": "/lvsh/static/js/2.8d8b9a67.chunk.js.map",
+    "static/js/2.a5dfd8b9.chunk.js": "/lvsh/static/js/2.a5dfd8b9.chunk.js",
+    "static/js/2.a5dfd8b9.chunk.js.map": "/lvsh/static/js/2.a5dfd8b9.chunk.js.map",
     "index.html": "/lvsh/index.html",
     "static/css/main.1999adb1.chunk.css.map": "/lvsh/static/css/main.1999adb1.chunk.css.map",
-    "static/js/2.8d8b9a67.chunk.js.LICENSE.txt": "/lvsh/static/js/2.8d8b9a67.chunk.js.LICENSE.txt",
+    "static/js/2.a5dfd8b9.chunk.js.LICENSE.txt": "/lvsh/static/js/2.a5dfd8b9.chunk.js.LICENSE.txt",
     "static/media/svg-1.48d08d0e.svg": "/lvsh/static/media/svg-1.48d08d0e.svg",
     "static/media/svg-5.c614f92c.svg": "/lvsh/static/media/svg-5.c614f92c.svg",
     "static/media/svg-7.f9856b25.svg": "/lvsh/static/media/svg-7.f9856b25.svg",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.91cf79ca.js",
-    "static/js/2.8d8b9a67.chunk.js",
+    "static/js/2.a5dfd8b9.chunk.js",
     "static/css/main.1999adb1.chunk.css",
-    "static/js/main.8527c4fd.chunk.js"
+    "static/js/main.b4fd9a62.chunk.js"
   ]
 }
