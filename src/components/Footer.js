@@ -57,7 +57,7 @@ let Footer = () => {
                     <ul className="footer-social-links-list">
                         <li className="footer-social-links-item">
                             <Link
-                                to='/'
+                                to={ '//www.facebook.com/CagedForever/' }
                                 className='footer-social-links-link'
                                 target='_blank'
                                 aria-label='Facebook'
@@ -67,7 +67,7 @@ let Footer = () => {
                         </li>
                         <li className="footer-social-links-item">
                             <Link
-                                to='/'
+                                to={'//www.instagram.com/nicolascagefans/?hl=en'}
                                 className='footer-social-links-link'
                                 target='_blank'
                                 aria-label='Instagram'
@@ -77,7 +77,7 @@ let Footer = () => {
                         </li>
                         <li className="footer-social-links-item">
                             <Link
-                                to='/'
+                                to={'//twitter.com/nicolascagest?lang=en'}
                                 className='footer-social-links-link'
                                 target='_blank'
                                 aria-label='Twitter'
@@ -87,7 +87,7 @@ let Footer = () => {
                         </li>
                         <li className="footer-social-links-item">
                             <Link
-                                to='/'
+                                to={'//www.youtube.com/watch?v=QjF4U-3Qz0U'}
                                 className='footer-social-links-link'
                                 target='_blank'
                                 aria-label='Youtube'
@@ -97,7 +97,7 @@ let Footer = () => {
                         </li>
                         <li className="footer-social-links-item">
                             <Link
-                                to='/'
+                                to={'//www.linkedin.com/in/nicolas-c-4a5b3318a/'}
                                 className='footer-social-links-link'
                                 target='_blank'
                                 aria-label='LinkedIn'
