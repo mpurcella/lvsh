@@ -159,8 +159,12 @@
             }
 
             @media (max-width: 992px) {
-                transform: scale(1);
+                transform: none;
                 margin: 2rem 0;
+
+                &:hover {
+                    transform: none;
+                }
             }
         }
     }

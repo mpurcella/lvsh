@@ -5,6 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
     background-image: linear-gradient(to right, rgb(205, 96, 255) 30%, rgba(73, 63, 252, 1) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -12,5 +14,17 @@
     &-header {
         font-size: 20rem;
         font-weight: 700;
+
+        @media (max-width: 992px) {
+            font-size: 16rem;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 12rem;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 10rem;
+        }
     }
 }
